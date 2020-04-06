@@ -1,7 +1,7 @@
 
 <?php
 
-$message = "$_POST";
+$message = "";
 
 
 $message = wordwrap($message, 70, "\r\n");
