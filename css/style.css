@@ -242,6 +242,36 @@ nav {
 	font-size: 20px;
 	justify-content: center;
 }
+
+.modal-btn-form {
+	color: white;
+	background-color: black;
+	padding: 2% 5%;
+	margin-right: 35%;
+	border: none;
+}
+
+.modal-btn-form:hover {
+	background-color: white;
+	color: black;
+}
+
+.modal-btn-form:active {
+	background-color: #E5E5E5;
+}
+
+
+/* modal style*/
+
+.modal-header h5 {
+	font-size: 25px;
+	padding-left: 30%;
+}
+
+.modal-body label {
+	padding-top: 10px;
+}
+
 @media (max-width: 1200px) {
 	.navigation li {
 		padding-right: 10%;
@@ -280,3 +310,4 @@ nav {
 	background-size: 30px;
 	}
 }
+
