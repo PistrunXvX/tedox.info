@@ -1,15 +1,16 @@
 
 <?php
-	$email=$_POST['email']; 
-	$phone=$_POST['tel'];
+	
+	$var1=$_POST['email'];
+	$message;
+	$message = wordwrap($message, 70, "\r\n");
 
-	$to='serwillow.wolfe@gmail.com';
-	$subject='Отправка формы';
-	$message=$email;
-
-
-
+mail('serwillow.wolfe@gmail.com', 'My Subject', $message=$var1;
 ?>
+
+
+
+
 
 
 
