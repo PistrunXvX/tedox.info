@@ -1,11 +1,6 @@
-
 <?php
-if (isset($_POST['submit'])) {
-	$name = $_POST['maile'];
-	$phone = $_POST['phonenumber'];
-
-	$to = 'serwillow.wolfe@gmail.com';
-	$subject = 'Проверка формы';
-	$message = "Mail: " . $name . "\n" . "Phone: " . $phone . "\n";
-}
+$message = $_POST['maile'];
+$message2 = $_POST['phonenumber'];
+mail('serwillow.wolfe@gmail.com', 'My Subject', $message, $message2);
 ?>
+
