@@ -1,9 +1,13 @@
 
 <?php
+	$email=$_POST['email']; 
+	$phone=$_POST['tel'];
 
-$email=$_POST['email']; 
+	$to='serwillow.wolfe@gmail.com';
+	$subject='Отправка формы';
+	$message=$email;
 
-mail('serwillow.wolfe@gmail.com', 'Заявка сайта', $message="Name: ".$email."\n");
+
 
 ?>
 
