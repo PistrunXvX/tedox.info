@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	 <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+	 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -99,7 +99,7 @@
 								</fieldset>
 							</div>
 						</form>
-						<button type="button" data-toggle="modal" data-target="#exampleModalCenter">Оформить</button>
+						<button type="submit" data-toggle="modal" data-target="#exampleModalCenter">Оформить</button>
 					</div>
 				</div>
 			<!-- 	<div class="col-md-6">
@@ -156,7 +156,7 @@
         </button>
       </div>
       <div class="modal-body">
-       		<form action="" id="sendemail">
+       		<form action="php/mail.php" id="sendemail">
        			<label for="email">Электронная почта</label> <br>
        			<input type="email" placeholder="Ваш email" id="email" required><br>
        			<label for="phone">Номер телефона</label><br>
@@ -173,5 +173,6 @@
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="js/ajax.js"></script>
 </body>
 </html>
