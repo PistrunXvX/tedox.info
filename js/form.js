@@ -27,10 +27,10 @@ $(function() {
           data: $form.serialize()
         }).done(function() {
           console.log('success');
-          modalhide.style.zIndex(-1);
         }).fail(function() {
           console.log('fail');
         });
+        $('#exampleModalCenter').modal('hide');
         //отмена действия по умолчанию для кнопки submit
         e.preventDefault();
       });
