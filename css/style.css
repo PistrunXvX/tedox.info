@@ -276,7 +276,7 @@ nav {
 	padding-top: 10px;
 }
 
-@media (max-width: 1285px) {
+@media (max-width: 1300px) {
 	.navigation li {
 		padding-right: 10%;
 	}
