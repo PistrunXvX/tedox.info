@@ -1,9 +1,9 @@
 
 <?php
-	$_POST['maile'] = $message
+	$_POST['maile'] = $maile
 
 
-mail('serwillow.wolfe@gmail.com', 'My Subject', $message);
+mail('serwillow.wolfe@gmail.com', 'My Subject', $message = $maile);
 ?>
 
 
